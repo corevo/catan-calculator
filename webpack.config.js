@@ -19,8 +19,8 @@ module.exports = {
     },
     output: {
         filename: 'assets/bin/[name].js',
-        path: './public',
-        publicPath: '/public'
+        path: './dist',
+        publicPath: '/dist'
     },
     module: {
         loaders: [
